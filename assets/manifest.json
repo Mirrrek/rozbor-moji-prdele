@@ -11,5 +11,13 @@
     },
     "background": {
         "service_worker": "service-worker.js"
-    }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "contentSettings"
+    ],
+    "host_permissions": [
+        "*://*.rozbor-dila.cz/*"
+    ]
 }
