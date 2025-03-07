@@ -1,0 +1,19 @@
+{
+    "name": "rozbor-moji-prdele",
+    "version": "1.0.0",
+    "description": "Remove copy/search restrictions on rozbor-dila.cz",
+    "main": "service-worker.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production"
+    },
+    "author": "mira",
+    "license": "ISC",
+    "devDependencies": {
+        "chrome-types": "^0.1.345",
+        "copy-webpack-plugin": "^13.0.0",
+        "ts-loader": "^9.5.2",
+        "webpack": "^5.98.0",
+        "webpack-cli": "^6.0.1"
+    }
+}
